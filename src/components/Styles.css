@@ -5,6 +5,7 @@ html {
 body {
     margin: 0px;
     background-color: rgb(253, 248, 241);
+    color: rgb(32, 32, 32);
 }
 
 .headerBar {
@@ -114,7 +115,7 @@ a:active {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-style: solid;
     border-width: 2px;
@@ -122,34 +123,238 @@ a:active {
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgb(127, 149, 182);
     position: relative;
-    top: 100px;
+    top: 150px;
+    font-size: x-large;
 }
 
 .description {
     height: 125px;
     width: 100%;
     padding: 5px;
-    margin-top: 15px;
-    margin-left: 15px;
-    font-size: large;
+    margin-left: 20px;
+    margin-top: -50px;
+    font-size: x-large;
 }
 
 .generalInfo {
-    height: 300px;
+    height: 75px;
     width: 80%;
-    border-top: 1px solid rgb(127, 149, 182);
+    border-top: 2px solid rgb(127, 149, 182);
     margin-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: baseline;
 }
+.infoLinks {
+    height: 50px;
+    width: 50px;
+    font-size: xx-large;
+}
 
-.test {
+.educationSection {
+    height: 900px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(127, 149, 182);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(127, 149, 182);
+    position: relative;
+    top: 250px;
+    font-size: x-large;
+}
+
+.educationTitle {
+    height: 100px;
+    width: 30%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid rgb(127, 149, 182);
+    margin-bottom: 30px;
+}
+
+.school {
+    height: 500px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.line-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.schoolContainer-1 {
+    height: 300px;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.schoolContainer-2 {
+    height: 300px;
+    width: 70%;
+    margin-top: 30px;
+}
+
+#byu {
+    border-top: 2px solid rgb(127, 149, 182);
+}
+
+.school-image-1 {
+    height: 300px;
+    width: 300px;
+    background-image: url("../images/dev-mountain-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+    box-shadow: 5px 5px 5px 5px rgb(127, 149, 182);
+    border-radius: 75px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.school-image-2 {
+    height: 300px;
+    width: 300px;
+    background-image: url("../images/byu-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+    box-shadow: 5px 5px 5px 5px rgb(127, 149, 182);
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.skills {
     height: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(127, 149, 182);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(127, 149, 182);
+    position: relative;
+    top: 350px;
+    font-size: x-large;
+}
+
+.skillsIconsTable {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.skillsIcons {
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 120px;
+}
+
+.pngIcons {
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 120px;
+}
+
+#expressIcon {
+    height: 80px;
+    width: 80px;
+    background-image: url(../images/expressjs-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: center;
+}
+
+#postgreSQLIcon {
+    height: 80px;
+    width: 80px;
+    background-image: url(../images/postgresql.svg);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: center;
+}
+
+#postmanIcon {
+    height: 80px;
+    width: 80px;
+    background-image: url(../images/postman-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: center;
+}
+
+#herokuIcon {
+    height: 80px;
+    width: 80px;
+    background-image: url(../images/heroku-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: center;
+}
+
+#axiosIcon {
+    height: 80px;
+    width: 80px;
+    background-image: url(../images/axios-icon.png);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: center;
+}
+
+.skillsIcons{
+    font-size: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 100px;
     width: 100%;
-    background-color: rgb(32, 32, 32);
+    margin: 0px;
+    background-color: rgb(236, 232, 226);
+    color: rgb(32, 32, 32);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: rgb(32, 32, 32);
+    box-shadow: inset -10px 0px 40px 0px rgb(127, 149, 182);
     position: absolute;
-    top: 950px;
-    margin-top: 130px;
+    top: 5500px;
 }

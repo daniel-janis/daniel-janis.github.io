@@ -13,6 +13,7 @@ class AboutMe extends React.Component {
                 </div>
                 </div>
                 <div className="aboutMe-2">
+                    <div className="descriptionTitle"><h2>About Me</h2></div>
                     <div className="description">
                      Hi! I'm Daniel Janis. I am a software developer based out of South Jordan, UT.
                     I learned to code at Devmountain's Web Development "bootcamp", a 16 week course learning full stack development 
@@ -22,12 +23,11 @@ class AboutMe extends React.Component {
                    
                     </div>
                     <div className="generalInfo">
-                                <a href="https://docs.google.com/document/d/1k9YPmfDQpAO_ijNJM3-S1fmVdpr4y0DSJZolPfg9A4I/edit?usp=sharing" target="_blank"><FontAwesomeIcon icon="file" /></a>
-                                <a><FontAwesomeIcon icon="map" /></a>
-                                <a href="mailto:danieleliotjanis@gmail.com" target="_blank"><FontAwesomeIcon icon="envelope" /></a>
-                                <a href="https://www.linkedin.com/in/daniel-janis-71995119a/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
-                                <a href="https://github.com/daniel-janis" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} /></a>
-                                <a href="https://www.facebook.com/daniel.e.janis" target="_blank"><FontAwesomeIcon icon={["fab", "facebook-square"]} /></a>
+                                <a href="https://docs.google.com/document/d/1k9YPmfDQpAO_ijNJM3-S1fmVdpr4y0DSJZolPfg9A4I/edit?usp=sharing" target="_blank"><FontAwesomeIcon icon="file" className="infoLinks" /></a>
+                                <a href="mailto:danieleliotjanis@gmail.com" target="_blank"><FontAwesomeIcon icon="envelope" className="infoLinks" /></a>
+                                <a href="https://www.linkedin.com/in/daniel-janis-71995119a/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} className="infoLinks" /></a>
+                                <a href="https://github.com/daniel-janis" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} className="infoLinks" /></a>
+                                <a href="https://www.facebook.com/daniel.e.janis" target="_blank"><FontAwesomeIcon icon={["fab", "facebook-square"]} className="infoLinks" /></a>
                     </div>
                 </div>
             </div>
