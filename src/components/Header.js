@@ -13,7 +13,7 @@ class Header extends React.Component {
                     <a href="#education"><h3>Education</h3></a>
                     <a href="#skills"><h3>Skills</h3></a>
                     <a href="#professionalExp"><h3>Professional Experience</h3></a>
-                    <a href="#contactMe"><h3>Contact Me</h3></a>
+                    {/* <a href="#contactMe"><h3>Contact Me</h3></a> */}
                 </nav>
             </div>
         )
