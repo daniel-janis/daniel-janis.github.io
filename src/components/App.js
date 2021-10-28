@@ -16,7 +16,7 @@ library.add(fab, faEnvelope, faMap, faFile, faLinkedin, faFacebookSquare, faGith
 class App extends React.Component {
     render() {
         return (
-            <div id="top">
+            <div id="aboutMe">
                 <Header />
                 <AboutMe />
                 <Education />

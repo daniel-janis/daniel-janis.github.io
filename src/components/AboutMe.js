@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class AboutMe extends React.Component {
     render() {
         return (
-            <div className="aboutMe" id="aboutMe">
+            <div className="aboutMe">
                 <div className="photo-container">
                 <div className="backgroundPic">
                     <div className="profilePic">
@@ -22,7 +22,7 @@ class AboutMe extends React.Component {
                     from the ground up. I also love to get creative! In my free time, I enjoy spending time with my family, playing my drums, and exercise.
                    
                     </div>
-                    <div className="generalInfo">
+                    <div className="generalInfo" id="education">
                                 <a href="https://docs.google.com/document/d/1k9YPmfDQpAO_ijNJM3-S1fmVdpr4y0DSJZolPfg9A4I/edit?usp=sharing" target="_blank"><FontAwesomeIcon icon="file" className="infoLinks" /></a>
                                 <a href="mailto:danieleliotjanis@gmail.com" target="_blank"><FontAwesomeIcon icon="envelope" className="infoLinks" /></a>
                                 <a href="https://www.linkedin.com/in/daniel-janis-71995119a/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} className="infoLinks" /></a>

@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class Skills extends React.Component {
     render () {
         return (
-            <div className="skills" id="skills">
+            <div className="skills">
                 <div className="skillsTitle"><h2>Skills</h2></div>
                 <table className="skillsIconsTable">
                     <tr>
@@ -26,8 +26,10 @@ class Skills extends React.Component {
                         <td><div className="pngIcons" id="herokuIcon"><span class="background-image" role="img" aria-label="Heroku"></span></div></td>
                         <td><FontAwesomeIcon icon={["fab", "html5"]} className="skillsIcons" /><span class="background-image" role="img" aria-label="Html"></span></td>
                     </tr>
+                    <div id="professionalExp"></div>
                     <tr>
-                        <td><div className="pngIcons" id="axiosIcon"><span class="background-image" role="img" aria-label="Axios"></span></div></td>
+                        <td>
+                            <div className="pngIcons" id="axiosIcon"><span class="background-image" role="img" aria-label="Axios"></span></div></td>
                     </tr>
                 </table>
             </div>

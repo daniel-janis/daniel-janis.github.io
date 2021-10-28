@@ -167,7 +167,7 @@ a:active {
     box-shadow: 5px 5px 5px 5px rgb(127, 149, 182);
     position: relative;
     top: 250px;
-    font-size: x-large;
+    font-size: large;
 }
 
 .educationTitle {
@@ -256,6 +256,14 @@ a:active {
     font-size: x-large;
 }
 
+.skillsTitle {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 2px solid rgb(127, 149, 182);
+}
+
 .skillsIconsTable {
     height: 80%;
     width: 80%;
@@ -328,12 +336,102 @@ a:active {
     font-size: 80px;
 }
 
+.professionalExp {
+    height: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(127, 149, 182);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(127, 149, 182);
+    position: relative;
+    top: 450px;
+    font-size: large;
+}
 
+.proExpTitle {
+    height: 75px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: rgb(127, 149, 182);
+}
 
+.projects {
+    height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#project-2 {
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: rgb(127, 149, 182);
+    padding: 30px;
+}
 
+#project-3 {
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: rgb(127, 149, 182);
+    padding: 30px;
+}
 
+.projectsContainer {
+    height: 300px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
+.projectScreenshot-1 {
+    height: 300px;
+    width: 600px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+    box-shadow: 5px 5px 5px 5px rgb(127, 149, 182);
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.projectScreenshot-2 {
+    height: 300px;
+    width: 400px;
+    background-image: url("../images/Tube-Search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 5px 5px rgb(127, 149, 182);
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.projectScreenshot-3 {
+    height: 300px;
+    width: 400px;
+    background-image: url("../images/Magic8Ball.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 5px 5px rgb(127, 149, 182);
+    border-radius: 10px;
+    margin-left: 50px;
+}
 
 
 

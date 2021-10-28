@@ -5,7 +5,7 @@ class Education extends React.Component {
 
     render () {
         return (
-            <div className="educationSection" id="education">
+            <div className="educationSection">
                 <div className="educationTitle"><h2>Education</h2></div>
                 <div className="school" id="devmountain">
                     <div className="school-image-1"></div>
@@ -36,6 +36,7 @@ class Education extends React.Component {
                                 <li>Following passion with discipline and frequently given opportunities to perform under high stress situations, learning to work through difficult periods of time</li>
                             </ul>
                         </div>
+                        <div id="skills"></div>
                     </div>
                     <div className="school-image-2"></div>
                 </div>
