@@ -1,5 +1,6 @@
 import "./Styles.css";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class AboutMe extends React.Component {
     render() {
@@ -21,32 +22,12 @@ class AboutMe extends React.Component {
                    
                     </div>
                     <div className="generalInfo">
-                        <table>
-                            <tr>
-                                <td>{/*paper form icon*/} Resume</td>
-                                <td><a href="https://docs.google.com/document/d/1k9YPmfDQpAO_ijNJM3-S1fmVdpr4y0DSJZolPfg9A4I/edit?usp=sharing" target="_blank">Download Resume</a></td>
-                            </tr>
-                            <tr>
-                                <td>{/*globe icon*/} Location</td>
-                                <td><a>South Jordan, UT, USA</a></td>
-                            </tr>
-                            <tr>
-                                <td>{/*email icon*/} Email</td>
-                                <td><a href="mailto:danieleliotjanis@gmail.com" target="_blank">DanielEliotJanis@gmail.com</a></td>
-                            </tr>
-                            <tr>
-                                <td>{/*linkedin icon*/} LinkedIn</td>
-                                <td><a href="https://www.linkedin.com/in/daniel-janis-71995119a/" target="_blank">Daniel Janis on LinkedIn</a></td>
-                            </tr>
-                            <tr>
-                                <td>{/*github icon*/} GitHub</td>
-                                <td><a href="https://github.com/daniel-janis" target="_blank">DanJan1999 </a></td>
-                            </tr>
-                            <tr>
-                                <td>{/*facebook icon*/} FaceBook</td>
-                                <td><a href="https://www.facebook.com/daniel.e.janis" target="_blank">Daniel Janis on Facebook</a></td>
-                            </tr>
-                        </table>
+                                <a href="https://docs.google.com/document/d/1k9YPmfDQpAO_ijNJM3-S1fmVdpr4y0DSJZolPfg9A4I/edit?usp=sharing" target="_blank"><FontAwesomeIcon icon="file" /></a>
+                                <a><FontAwesomeIcon icon="map" /></a>
+                                <a href="mailto:danieleliotjanis@gmail.com" target="_blank"><FontAwesomeIcon icon="envelope" /></a>
+                                <a href="https://www.linkedin.com/in/daniel-janis-71995119a/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                                <a href="https://github.com/daniel-janis" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} /></a>
+                                <a href="https://www.facebook.com/daniel.e.janis" target="_blank"><FontAwesomeIcon icon={["fab", "facebook-square"]} /></a>
                     </div>
                 </div>
             </div>

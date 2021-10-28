@@ -91,7 +91,7 @@ a:active {
     justify-content: center;
     align-items: center;
     box-shadow: 5px 5px 5px 5px rgb(127, 149, 182);
-    border-radius: 5px;
+    border-radius: 75px;
     object-fit: contain;
 }
 
@@ -101,7 +101,7 @@ a:active {
     background-image: url('../images/HeadshotPro2.jpg');
     background-repeat: no-repeat;
     background-size: 250px 250px;
-    border-radius: 10px;
+    border-radius: 50%;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(127, 149, 182);
@@ -113,9 +113,9 @@ a:active {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(127, 149, 182);
@@ -127,19 +127,22 @@ a:active {
 
 .description {
     height: 125px;
-    width: 700px;
+    width: 100%;
     padding: 5px;
     margin-top: 15px;
     margin-left: 15px;
+    font-size: large;
 }
 
 .generalInfo {
     height: 300px;
-    width: 400px;
-    border-left: 1px solid rgb(127, 149, 182);
+    width: 80%;
+    border-top: 1px solid rgb(127, 149, 182);
     margin-top: 15px;
-    margin-left: 90px;
-    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 
 .test {
