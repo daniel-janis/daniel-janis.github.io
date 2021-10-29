@@ -23,7 +23,7 @@ class AboutMe extends React.Component {
                    
                     </div>
                     <div className="generalInfo" id="education">
-                                <a href="https://docs.google.com/document/d/1k9YPmfDQpAO_ijNJM3-S1fmVdpr4y0DSJZolPfg9A4I/edit?usp=sharing" target="_blank"><FontAwesomeIcon icon="file" className="infoLinks" /></a>
+                                <a href="https://drive.google.com/file/d/1HF62Ikl2ZfFaao9EN_zCr3WucgEfcAr7/view?usp=sharing" target="_blank"><FontAwesomeIcon icon="file" className="infoLinks" /></a>
                                 <a href="mailto:danieleliotjanis@gmail.com" target="_blank"><FontAwesomeIcon icon="envelope" className="infoLinks" /></a>
                                 <a href="https://www.linkedin.com/in/daniel-janis-71995119a/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} className="infoLinks" /></a>
                                 <a href="https://github.com/daniel-janis" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} className="infoLinks" /></a>
