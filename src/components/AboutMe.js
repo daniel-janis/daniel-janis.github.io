@@ -17,7 +17,7 @@ class AboutMe extends React.Component {
                     <div className="description">
                      Hi! I'm Daniel Janis. I am a software developer based out of South Jordan, UT.
                     I learned to code at Devmountain's Web Development "bootcamp", a 16 week course learning full stack development 
-                    and many other skills developers in today's industry need. I am a BYU student majoring in Music Performance. 
+                    and many other skills developers in today's industry need. I attend BYU part time working on a degree in music performance. 
                     I love to learn and I love to create. Music is a great outlet and inspiration for me. However, software development is a passion of mine because I love to see something built
                     from the ground up. I also love to get creative! In my free time, I enjoy spending time with my family, playing my drums, and exercise.
                    
